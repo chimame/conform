@@ -1,0 +1,8 @@
+_virtual
+*.cjs
+*.d.ts
+*.js
+*.mjs
+README
+!rollup.config.js
+dist/

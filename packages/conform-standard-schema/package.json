@@ -1,6 +1,6 @@
 {
-	"name": "conform-zod",
-	"description": "A utility library for parsing form data and deriving validation attributes using Zod",
+	"name": "conform-standard-schema",
+	"description": "A utility library for parsing form data and deriving validation attributes using Standard Schema",
 	"homepage": "https://conform.guide",
 	"license": "MIT",
 	"version": "0.0.7",
@@ -28,7 +28,7 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/edmundhung/conform",
-		"directory": "packages/conform-zod"
+		"directory": "packages/conform-standard-schema"
 	},
 	"bugs": {
 		"url": "https://github.com/edmundhung/conform/issues"
@@ -37,7 +37,7 @@
 		"conform-dom": "workspace:*"
 	},
 	"peerDependencies": {
-		"zod": "^3.24.0"
+		"@standard-schema/spec": "^1.0.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.8",
@@ -47,7 +47,7 @@
 		"@rollup/plugin-node-resolve": "^13.3.0",
 		"rollup-plugin-copy": "^3.4.0",
 		"rollup": "^2.79.1",
-		"zod": "3.24.0"
+		"@standard-schema/spec": "^1.0.0"
 	},
 	"keywords": [
 		"constraint-validation",
@@ -56,7 +56,8 @@
 		"html",
 		"progressive-enhancement",
 		"validation",
-		"zod"
+		"standard",
+		"schema"
 	],
 	"sideEffects": false
 }
